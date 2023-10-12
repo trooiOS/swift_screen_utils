@@ -1,7 +1,7 @@
 import XCTest
-@testable import SwiftScreenUtils
+@testable import SwiftUIScreenUtils
 
-final class SwiftScreenUtilsTests: XCTestCase {
+final class SwiftUIScreenUtilsTests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest

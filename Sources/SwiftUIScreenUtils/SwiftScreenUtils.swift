@@ -8,9 +8,9 @@ private enum CGFloatOrDoubleOrInt {
     case int(Int)
 }
 
-class SwiftScreenUtils {
+class SwiftUIScreenUtils {
     
-    static let shared = SwiftScreenUtils()
+    static let shared = SwiftUIScreenUtils()
     
     private var designWidth: CGFloat
     private var designHeight: CGFloat
@@ -88,54 +88,54 @@ class SwiftScreenUtils {
 
 extension CGFloat {
     var sp: CGFloat {
-        return SwiftScreenUtils.shared.setSP(.cgfloat(self))
+        return SwiftUIScreenUtils.shared.setSP(.cgfloat(self))
     }
     
     var w: CGFloat {
-        return SwiftScreenUtils.shared.setW(.cgfloat(self))
+        return SwiftUIScreenUtils.shared.setW(.cgfloat(self))
     }
     
     var h: CGFloat {
-        return SwiftScreenUtils.shared.setH(.cgfloat(self))
+        return SwiftUIScreenUtils.shared.setH(.cgfloat(self))
     }
     
     var r: CGFloat {
-        return SwiftScreenUtils.shared.setR(.cgfloat(self))
+        return SwiftUIScreenUtils.shared.setR(.cgfloat(self))
     }
 }
 
 extension Int {
     var sp: CGFloat {
-        return SwiftScreenUtils.shared.setSP(.int(self))
+        return SwiftUIScreenUtils.shared.setSP(.int(self))
     }
     
     var w: CGFloat {
-        return SwiftScreenUtils.shared.setW(.int(self))
+        return SwiftUIScreenUtils.shared.setW(.int(self))
     }
     
     var h: CGFloat {
-        return SwiftScreenUtils.shared.setH(.int(self))
+        return SwiftUIScreenUtils.shared.setH(.int(self))
     }
     
     var r: CGFloat {
-        return SwiftScreenUtils.shared.setR(.int(self))
+        return SwiftUIScreenUtils.shared.setR(.int(self))
     }
 }
 
 extension Double {
     var sp: CGFloat {
-        return SwiftScreenUtils.shared.setSP(.double(self))
+        return SwiftUIScreenUtils.shared.setSP(.double(self))
     }
     
     var w: CGFloat {
-        return SwiftScreenUtils.shared.setW(.double(self))
+        return SwiftUIScreenUtils.shared.setW(.double(self))
     }
     
     var h: CGFloat {
-        return SwiftScreenUtils.shared.setH(.double(self))
+        return SwiftUIScreenUtils.shared.setH(.double(self))
     }
     
     var r: CGFloat {
-        return SwiftScreenUtils.shared.setR(.double(self))
+        return SwiftUIScreenUtils.shared.setR(.double(self))
     }
 }
