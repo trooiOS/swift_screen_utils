@@ -10,7 +10,7 @@ private enum CGFloatOrDoubleOrInt {
 
 public class ScreenUtilsSwiftUI {
     
-    static let shared = ScreenUtilsSwiftUI()
+    public static let shared = ScreenUtilsSwiftUI()
     
     private var designWidth: CGFloat
     private var designHeight: CGFloat
