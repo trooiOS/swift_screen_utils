@@ -1,6 +1,6 @@
 # SwiftScreenUtils
 
-This package helps developer to manage resizable UI in accors different iOS devices like iPhone or iPad.
+This package helps developer to manage resizable UI in SwiftUI project with different iOS devices like iPhone or iPad.
 
 Just need to set design screen size (XD/FIGMA/ANY-OTHER) at app initialization.
 
@@ -28,6 +28,14 @@ func application(
 | `.h` | Resize the height as per the decive and design scale |
 | `.sp` | Resize the font size as per the decive and design scale |
 | `.sp` | Resize the radius as per the decive and design scale |
+
+
+### Swift Package Manager
+
+Added SwiftScreenUtils in Package Dependencies
+```
+https://github.com/trooiOS/swift_screen_utils/clipboard-copy-element
+```
 
 
 ### Example
