@@ -1,6 +1,6 @@
 //  Created by Azruddin Shaikh.
 
-import UIKit
+import SwiftUI
 
 private enum CGFloatOrDoubleOrInt {
     case cgfloat(CGFloat)
@@ -8,7 +8,7 @@ private enum CGFloatOrDoubleOrInt {
     case int(Int)
 }
 
-public class ScreenUtilsSwiftUI {
+open class ScreenUtilsSwiftUI {
     
     public static let shared = ScreenUtilsSwiftUI()
     
@@ -23,7 +23,7 @@ public class ScreenUtilsSwiftUI {
         self.designHeight = deviceHeight
     }
     
-    func setUp(designSize size: CGSize) {
+    public func setUp(designSize size: CGSize) {
         self.designWidth = size.width
         self.designHeight = size.height
     }
