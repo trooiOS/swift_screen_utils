@@ -8,7 +8,7 @@ private enum CGFloatOrDoubleOrInt {
     case int(Int)
 }
 
-class ScreenUtilsSwiftUI {
+public class ScreenUtilsSwiftUI {
     
     static let shared = ScreenUtilsSwiftUI()
     
@@ -87,55 +87,55 @@ class ScreenUtilsSwiftUI {
 }
 
 extension CGFloat {
-    var sp: CGFloat {
+    public var sp: CGFloat {
         return ScreenUtilsSwiftUI.shared.setSP(.cgfloat(self))
     }
     
-    var w: CGFloat {
+    public var w: CGFloat {
         return ScreenUtilsSwiftUI.shared.setW(.cgfloat(self))
     }
     
-    var h: CGFloat {
+    public var h: CGFloat {
         return ScreenUtilsSwiftUI.shared.setH(.cgfloat(self))
     }
     
-    var r: CGFloat {
+    public var r: CGFloat {
         return ScreenUtilsSwiftUI.shared.setR(.cgfloat(self))
     }
 }
 
 extension Int {
-    var sp: CGFloat {
+    public var sp: CGFloat {
         return ScreenUtilsSwiftUI.shared.setSP(.int(self))
     }
     
-    var w: CGFloat {
+    public var w: CGFloat {
         return ScreenUtilsSwiftUI.shared.setW(.int(self))
     }
     
-    var h: CGFloat {
+    public var h: CGFloat {
         return ScreenUtilsSwiftUI.shared.setH(.int(self))
     }
     
-    var r: CGFloat {
+    public var r: CGFloat {
         return ScreenUtilsSwiftUI.shared.setR(.int(self))
     }
 }
 
 extension Double {
-    var sp: CGFloat {
+    public var sp: CGFloat {
         return ScreenUtilsSwiftUI.shared.setSP(.double(self))
     }
     
-    var w: CGFloat {
+    public var w: CGFloat {
         return ScreenUtilsSwiftUI.shared.setW(.double(self))
     }
     
-    var h: CGFloat {
+    public var h: CGFloat {
         return ScreenUtilsSwiftUI.shared.setH(.double(self))
     }
     
-    var r: CGFloat {
+    public var r: CGFloat {
         return ScreenUtilsSwiftUI.shared.setR(.double(self))
     }
 }
