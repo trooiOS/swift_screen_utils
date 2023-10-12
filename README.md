@@ -34,7 +34,7 @@ func application(
 
 Added SwiftScreenUtils in Package Dependencies
 ```
-https://github.com/trooiOS/swift_screen_utils/clipboard-copy-element
+https://github.com/trooiOS/swift_screen_utils
 ```
 
 
