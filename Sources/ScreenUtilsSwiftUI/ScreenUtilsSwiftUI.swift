@@ -86,56 +86,56 @@ open class ScreenUtilsSwiftUI {
     
 }
 
-extension CGFloat {
-    public var sp: CGFloat {
+public extension CGFloat {
+    var sp: CGFloat {
         return ScreenUtilsSwiftUI.shared.setSP(.cgfloat(self))
     }
     
-    public var w: CGFloat {
+    var w: CGFloat {
         return ScreenUtilsSwiftUI.shared.setW(.cgfloat(self))
     }
     
-    public var h: CGFloat {
+    var h: CGFloat {
         return ScreenUtilsSwiftUI.shared.setH(.cgfloat(self))
     }
     
-    public var r: CGFloat {
+    var r: CGFloat {
         return ScreenUtilsSwiftUI.shared.setR(.cgfloat(self))
     }
 }
 
-extension Int {
-    public var sp: CGFloat {
+public extension Int {
+    var sp: CGFloat {
         return ScreenUtilsSwiftUI.shared.setSP(.int(self))
     }
     
-    public var w: CGFloat {
+    var w: CGFloat {
         return ScreenUtilsSwiftUI.shared.setW(.int(self))
     }
     
-    public var h: CGFloat {
+    var h: CGFloat {
         return ScreenUtilsSwiftUI.shared.setH(.int(self))
     }
     
-    public var r: CGFloat {
+    var r: CGFloat {
         return ScreenUtilsSwiftUI.shared.setR(.int(self))
     }
 }
 
-extension Double {
-    public var sp: CGFloat {
+public extension Double {
+    var sp: CGFloat {
         return ScreenUtilsSwiftUI.shared.setSP(.double(self))
     }
     
-    public var w: CGFloat {
+    var w: CGFloat {
         return ScreenUtilsSwiftUI.shared.setW(.double(self))
     }
     
-    public var h: CGFloat {
+    var h: CGFloat {
         return ScreenUtilsSwiftUI.shared.setH(.double(self))
     }
     
-    public var r: CGFloat {
+    var r: CGFloat {
         return ScreenUtilsSwiftUI.shared.setR(.double(self))
     }
 }
