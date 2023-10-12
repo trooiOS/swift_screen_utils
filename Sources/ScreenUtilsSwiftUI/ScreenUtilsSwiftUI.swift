@@ -23,7 +23,7 @@ public class ScreenUtilsSwiftUI {
         self.designHeight = deviceHeight
     }
     
-    func setUp(designSize size: CGSize) {
+    public func setUp(designSize size: CGSize) {
         self.designWidth = size.width
         self.designHeight = size.height
     }
