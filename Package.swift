@@ -4,23 +4,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftUIScreenUtils",
+    name: "ScreenUtilsSwiftUI",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "SwiftUIScreenUtils",
-            targets: ["SwiftUIScreenUtils"]),
+            name: "ScreenUtilsSwiftUI",
+            targets: ["ScreenUtilsSwiftUI"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SwiftUIScreenUtils"),
+            name: "ScreenUtilsSwiftUI"),
         .testTarget(
-            name: "SwiftUIScreenUtilsTests",
-            dependencies: ["SwiftUIScreenUtils"]),
+            name: "ScreenUtilsSwiftUITests",
+            dependencies: ["ScreenUtilsSwiftUI"]),
     ]
 )

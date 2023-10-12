@@ -1,4 +1,4 @@
-# SwiftUIScreenUtils
+# ScreenUtilsSwiftUI
 
 This package helps developer to manage resizable UI in SwiftUI project with different iOS devices like iPhone or iPad.
 
@@ -14,7 +14,7 @@ func application(
 ) -> Bool {
     
     // set up to add design size
-    SwiftUIScreenUtils.shared.setUp(designSize: CGSize(width: 428, height: 926))
+    ScreenUtilsSwiftUI.shared.setUp(designSize: CGSize(width: 428, height: 926))
     
     return true
 }
@@ -32,7 +32,7 @@ func application(
 
 ### Swift Package Manager
 
-Added SwiftUIScreenUtils in Package Dependencies
+Added ScreenUtilsSwiftUI in Package Dependencies
 ```
 https://github.com/trooiOS/swift_screen_utils
 ```
